@@ -14,6 +14,10 @@ const App = () => {
   const [matchedPairs, setMatchedPairs] = React.useState(0);
   const [clickedCard, setClickedCard] = React.useState<undefined | CardType>(undefined);
 
+  const handleCardClick = () => {
+    console.log("Click!");
+  };
+
   return (
     <div>
       <Grid>
