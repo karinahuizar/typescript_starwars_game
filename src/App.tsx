@@ -16,7 +16,7 @@ const App = () => {
 
   React.useEffect(() => {
     if (matchedPairs === cards.length / 2) {
-      console.log('Game Won!');
+      console.log('You won!');
       setGameWon(true);
     }
   }, [matchedPairs]);
